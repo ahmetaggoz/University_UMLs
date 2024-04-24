@@ -1,0 +1,30 @@
+@startuml
+title Üniversite
+class University {
+    -name: string
+    -location : string
+}
+class Employee extends University {
+    -name: string
+    -age: int
+}
+class Proffessor extends Employee {
+
+}
+class Agent extends Employee {
+
+}
+class Classes extends University {
+
+}
+class Offices extends University {
+
+}
+class Departments extends University {
+
+}
+class DepartmentOffice extends Departments {
+
+}
+hide empty member
+@enduml
